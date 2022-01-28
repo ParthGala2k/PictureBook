@@ -10,7 +10,7 @@ import useStyles from './styles.js'
 
 const App = () => {
     const classes = useStyles()
-    const dispatch = useDispatch(getPosts())
+    const dispatch = useDispatch()
 
     useEffect(() => {
         dispatch(getPosts());
