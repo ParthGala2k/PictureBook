@@ -14,6 +14,7 @@ app.use(cors())
 app.use('/posts', postRoutes)
 
 app.get('/', (req, res) => {
+    
     res.send('Hello to PictureBook')
 })
 // const CONNECTION_URL = "mongodb+srv://ParthGala:ParthGala2343@cluster0.ltjvc.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
